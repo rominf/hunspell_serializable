@@ -1,3 +1,5 @@
+# noinspection PyUnresolvedReferences
+from hunspell import HunSpellError
 import hunspell
 
 
