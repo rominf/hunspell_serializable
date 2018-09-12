@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 import os
 
-NAME = 'hunspell_serializable'
+NAME = 'hunspell-serializable'
 DESCRIPTION = 'Wrapper for pyhunspell that makes HunSpell class serializable.'
 URL = 'https://github.com/rominf/pyhunspell_serializable'
 EMAIL = 'infroma@gmail.com'
