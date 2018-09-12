@@ -1,7 +1,7 @@
-from hunspell import HunSpell
+import hunspell
 
 
-class HunSpellSerializable(HunSpell):
+class HunSpell(hunspell.HunSpell):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self._dic_filename, self._aff_filename = args
