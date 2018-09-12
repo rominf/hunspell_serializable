@@ -12,3 +12,6 @@ class HunSpell(hunspell.HunSpell):
         new_self = HunSpell(state['_dic_filename'], state['_aff_filename'])
         # noinspection PyUnusedLocal,PyMethodFirstArgAssignment
         self = new_self
+
+    def __reduce__(self):
+        return self.__class__, (self._dic_filename, self._aff_filename)
